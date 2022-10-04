@@ -1,0 +1,22 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="container">
+      <img class="image" src='https://imgur.com/uW3nv8Q.jpg'>
+      <p class="lead">Sign up for our email list to stay up to date on Black Cat Coffee Roasters news, Roaster's Blog,
+        events, sales and more. Join the <strong>
+          <%= count %>
+        </strong> others today!. </p>
+      <form method="POST" action='/register'>
+        <input type="text" name="firstname" class="form" placeholder="Enter Your First Name" required>
+        <input type="text" name="lastname" class="form" placeholder="Enter Your Last Name" required>
+        <input type="text" name="email" class="form" placeholder="Enter Your Email" required>
+        <button>Join Now</button>
+      </form>
+    </div>
+  </div>
+</body>

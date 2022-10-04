@@ -1,0 +1,21 @@
+{
+  "name": "bccr_email_web_app",
+  "version": "1.0.0",
+  "description": "Black Cat Coffee Roasters' email web application using MySQl, node.js, express.js, and faker. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johnny Wells",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.30",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "faker": "^5.5.3",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0"
+  }
+}
